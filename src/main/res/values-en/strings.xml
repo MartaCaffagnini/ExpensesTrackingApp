@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /* Main activity */
+    <string name="registered_expenses">Registered expenses: </string>
+    <string name="downloading">Download already in progress</string>
+
+    /* Add expense activity */
+    <string name="add_expense_title">New expense</string>
+
+    /* Detail expense activity */
+    <string name="detail_expense_title">Expense details</string>
+    <string name="delete">Delete</string>
+    <string name="save">Submit</string>
+
+    /* Edit expense activity */
+    <string name="edit_expense_title">Edit expense</string>
+
+    /* Custom period activity */
+    <string name="custom_period_title">Custom period statistics</string>
+
+    /* Day statistics activity */
+    <string name="day_statistics_title">Daily statistics</string>
+    <string name="last_day">Last day</string>
+    <string name="next_day">Next day</string>
+
+    /* Month statistics activity */
+    <string name="month_statistics_title">Monthly statistics</string>
+    <string name="next_month">Next month</string>
+    <string name="last_month">Last month</string>
+    <string name="month">Month:</string>
+
+
+    /* Year statistics activity */
+    <string name="year">Year:</string>
+    <string name="last_year">Last year</string>
+    <string name="next_year">Next year</string>
+    <string name="year_statistics_title">Annual statistics</string>
+
+
+    /* Set custom statistics activity */
+    <string name="set_custom_statistics_title"> Period selection</string>
+
+    /* General statistics activity */
+    <string name="general_statistics_title">General statistics</string>
+
+
+    <string name="no_expenses">No expenses</string>
+    <string name="day">Day:</string>
+    <string name="title">Title</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount (€)</string>
+    <string name="date">Date</string>
+    <string name="period">Period:</string>
+    <string name="edit">Edit</string>
+    <string name="download_csv">Download CSV</string>
+    <string name="expenses_by_category">Expenses by category</string>
+
+    /* Categories */
+    <string name="groceries_category">Groceries</string>
+    <string name="transport_category">Transport</string>
+    <string name="bills_category">Bills</string>
+    <string name="leisure_category">Leisure</string>
+    <string name="other_category">Other</string>
+
+    /* Error */
+    <string name="missing_values">Missing values</string>
+    <string name="period_statistics_from">Period statistics from:</string>
+    <string name="period_statistics_to">to:</string>
+    <string name="view_statistics">View statistics</string>
+    <string name="from">From</string>
+    <string name="to">to</string>
+    <string name="language_settings">Language settings</string>
+    <string name="italian">Italian</string>
+    <string name="english">English</string>
+    <string name="language">Language:</string>
+    <string name="expenses">Expenses</string>
+    <string name="line_chart_desc">Money spent in the last 5 years</string>
+    <string name="categories">Categories</string>
+    <string name="heading_csv">Title,Category,Amount(€),Date</string>
+    <string name="csv_filename">expenseReport</string>
+    <string name="clothes_category">Clothes</string>
+    <string name="error">I couldn\'t create the file, try later</string>
+    <string name="csv_downloaded">Csv downloaded</string>
+    <string name="no_language">No language has been selected</string>
+
+
+</resources>
