@@ -1,0 +1,89 @@
+<resources>
+    /* Main activity */
+    <string name="registered_expenses">Spese registrate: </string>
+    <string name="downloading">Download già in corso</string>
+
+    /* Add expense activity */
+    <string name="add_expense_title">Nuova spesa</string>
+
+    /* Detail expense activity */
+    <string name="detail_expense_title">Dettagli spesa</string>
+
+    /* Edit expense activity */
+    <string name="edit_expense_title">Modifica spesa</string>
+
+    /* Custom period activity */
+    <string name="custom_period_title">Statistiche del periodo</string>
+
+    /* Day statistics activity */
+    <string name="day_statistics_title">Statistiche giornaliere</string>
+
+    /* Month statistics activity */
+    <string name="month_statistics_title">Statistiche mensili</string>
+
+    /* Set custom statistics activity */
+    <string name="set_custom_statistics_title">Selezione periodo</string>
+
+    /* General statistics activity */
+    <string name="general_statistics_title">Statistiche generali</string>
+
+
+    <string name="no_expenses">Non ci sono ancora spese</string>
+    <string name="day">Giorno:</string>
+    <string name="title">Titolo</string>
+    <string name="category">Categoria</string>
+    <string name="amount">Importo (€)</string>
+    <string name="date">Data</string>
+    <string name="save">Salva</string>
+
+
+
+
+
+
+
+    /* Categories */
+    <string name="groceries_category">Alimentari</string>
+    <string name="transport_category">Trasporti</string>
+    <string name="bills_category">Bollette</string>
+    <string name="leisure_category">Svago</string>
+    <string name="other_category">Altro</string>
+
+
+    /* Error */
+    <string name="missing_values">Dati mancanti</string>
+    <string name="period">Periodo:</string>
+    <string name="last_day">Giorno precedente</string>
+    <string name="next_day">Giorno successivo</string>
+    <string name="edit">Modifica</string>
+    <string name="delete">Elimina</string>
+    <string name="next_month">Mese successivo</string>
+    <string name="last_month">Mese precedente</string>
+    <string name="month">Mese:</string>
+    <string name="year">Anno:</string>
+    <string name="last_year">Anno precedente</string>
+    <string name="next_year">Anno successivo</string>
+    <string name="year_statistics_title">Statistiche annuali</string>
+    <string name="download_csv">Scarica CSV</string>
+    <string name="expenses_by_category">Spese per categoria</string>
+    <string name="period_statistics_from">Statistiche del periodo da:</string>
+    <string name="period_statistics_to">a:</string>
+    <string name="view_statistics">Visualizza statistiche</string>
+    <string name="from">Dal</string>
+    <string name="to">al</string>
+    <string name="language_settings">Impostazioni lingua</string>
+    <string name="italian">Italiano</string>
+    <string name="english">Inglese</string>
+    <string name="language">Lingua:</string>
+    <string name="expenses">Spese</string>
+    <string name="line_chart_desc">Soldi spesi negli ultimi 5 anni</string>
+    <string name="categories">Categorie</string>
+    <string name="heading_csv">Titolo,Categoria,Importo(€),Data</string>
+    <string name="csv_filename">reportSpese</string>
+    <string name="clothes_category">Vestiti</string>
+    <string name="error">Impossibile creare il file, riprova più tardi</string>
+    <string name="csv_downloaded">Csv scaricato</string>
+    <string name="no_language">Nessuna lingua è stata selezionata</string>
+
+
+</resources>

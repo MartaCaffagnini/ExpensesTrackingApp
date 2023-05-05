@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailExpenseActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:text="@string/title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_text_size_2"
+             />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:textSize="@dimen/activity_text_size_1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:text="@string/category"
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_text_size_2"
+             />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:textSize="@dimen/activity_text_size_1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:text="@string/amount"
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_text_size_2"
+            />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:ems="10"
+            android:textSize="@dimen/activity_text_size_1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:text="@string/date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_text_size_2" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:textSize="@dimen/activity_text_size_1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:inputType="date" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/edit" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/delete" />
+
+
+</RelativeLayout>
